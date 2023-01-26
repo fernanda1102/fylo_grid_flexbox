@@ -1,5 +1,4 @@
 header {
-    font-family: var(--font-family);
     color: var(--third-color-neutral);
 }
 
@@ -18,8 +17,8 @@ header {
 
 .menu-text-container {
     padding: 0.5em;
-    font-family: var(--font-family);
     color: var(--third-color-neutral);
     font-size: 14px;
+    font-family: var(--font-family-body);
 }
 
