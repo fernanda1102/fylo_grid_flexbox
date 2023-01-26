@@ -1,0 +1,25 @@
+header {
+    font-family: var(--font-family);
+    color: var(--third-color-neutral);
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0.8em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-text-container {
+    padding: 0.5em;
+    font-family: var(--font-family);
+    color: var(--third-color-neutral);
+    font-size: 14px;
+}
+
