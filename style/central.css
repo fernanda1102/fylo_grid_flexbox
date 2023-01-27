@@ -1,0 +1,22 @@
+.conteudo-central-container {
+    text-align: center;
+    margin-top: 200px;
+    color: var(--third-color-neutral)
+}
+
+.titulo_central {
+    font-size: 19px;
+    font-weight: 700;
+    padding: 0 1em;
+    margin: 1em 2em 2em;
+    line-height: 1.5em;
+    font-family: var(--font-family-tittle)
+}
+
+.texto_central{
+    font-size: 14px;
+    padding: 0em 0.5em;
+    margin: 1em 2em 8em;
+    line-height: 1.5em;
+    font-family: var(--font-family-body);
+}
