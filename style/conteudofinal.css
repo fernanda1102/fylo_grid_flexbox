@@ -3,13 +3,11 @@
     margin-top: 200px;
     color: var(--third-color-neutral);
     background-color: var(--primary-bg-color-testimoials);
-    font-size: 12.5px;
-    text-align: left;
+    border-radius: 10px;
     padding: 1em 2em 1em;
     margin: 2em 1em;
     line-height: 2em;
     width: 300px;
-    border-radius: 10px;
 }
 
 .titulo_final {
