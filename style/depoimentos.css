@@ -1,0 +1,81 @@
+<!--Satish-Patel-->
+
+.Satish-Patel-container {
+    text-align: center;
+    margin-top: 200px;
+    color: var(--third-color-neutral);
+    background-color: var(--primary-bg-color-testimoials);
+    font-size: 12.5px;
+    text-align: left;
+    padding: 1em 2em 1em;
+    margin: 1em 1em;
+    line-height: 2em;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.depoimentos-texto {
+    font-family: var( --font-family-body);
+    margin: 2em 0em;
+}
+
+.nome-texto {
+    font-family: var( --font-family-tittle);
+    font-size: 12px;
+}
+
+.cargo-texto {
+    font-family: var( --font-family-body);
+    font-size: 10px;
+}
+
+.profile-1 {
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.info-profile {
+    display: inline-block;
+}
+
+<!--Bruce-McKenzie-->
+
+.Bruce-McKenzie-container {
+    text-align: center;
+    margin-top: 200px;
+    color: var(--third-color-neutral);
+    background-color: var(--primary-bg-color-testimoials);
+    font-size: 12.5px;
+    text-align: left;
+    padding: 1em 2em 1em;
+    margin: 2em 1em;
+    line-height: 2em;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.depoimentos-texto {
+    font-family: var( --font-family-body);
+    margin: 2em 0em;
+}
+
+.nome-texto {
+    font-family: var( --font-family-tittle);
+    font-size: 12px;
+}
+
+.cargo-texto {
+    font-family: var( --font-family-body);
+    font-size: 10px;
+}
+
+.profile-2 {
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.info-profile {
+    display: inline-block;
+}
+
+
