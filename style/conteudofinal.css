@@ -1,0 +1,60 @@
+.conteudo_final {
+    text-align: center;
+    margin-top: 200px;
+    color: var(--third-color-neutral);
+    background-color: var(--primary-bg-color-testimoials);
+    font-size: 12.5px;
+    text-align: left;
+    padding: 1em 2em 1em;
+    margin: 2em 1em;
+    line-height: 2em;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.titulo_final {
+    font-family: var(--font-family-tittle);
+    font-size: 19px;
+    font-weight: 400;
+    padding: 0 0em;
+    margin: 1em 2em;
+    line-height: 1.5em;
+}
+
+.texto_final {
+    font-size: 14px;
+    padding: 0em 0.5em;
+    margin: 2em 0;
+    line-height: 1.5em;
+    font-family: var(--font-family-body);
+    text-align: center;
+}
+
+.final__email {
+    border: 0;
+    margin: 1em 0 1em 0 ;
+    line-height: 2.5;
+    padding: 0 40px;
+    font-size: 1rem;
+    text-align: left;
+    color: var(--primary-bg-color-f);
+    border-radius: 24px;
+    background-color: var(--third-color-neutral);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.final__starded {
+    border: 0;
+    margin: 1em 0 1em 0 ;
+    line-height: 2.5;
+    padding: 0 60px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 24px;
+    background-color: var(--second-color-blue);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
