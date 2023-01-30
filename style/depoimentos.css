@@ -1,3 +1,19 @@
+.depoimentos-container {
+    align-items: center;
+
+}
+
+.titulo-depoimentos{
+    font-size: 19px;
+    font-weight: 700;
+    padding: 0 0.5em;
+    margin: 1em 2em 2em;
+    line-height: 1.5em;
+    font-family: var(--font-family-tittle);
+    color: var(--third-color-neutral);
+    text-align: center;
+}
+
 /* Satish Patel*/
 
 .Satish-Patel-container {

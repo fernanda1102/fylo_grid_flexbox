@@ -1,0 +1,14 @@
+.swiper-wrapper img {
+    width: 80%;
+    margin: 1em 2em 0 2em;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: -146em 0;
+}

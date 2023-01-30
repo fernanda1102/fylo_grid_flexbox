@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <title>Fylo landing page with dark theme and features grid</title>
   
   </head>
@@ -101,7 +102,7 @@
 
     <section class="conteudo-central-container-2">
       
-        <img class="illustration-stay-productive" src="images/illustration-stay-productive.png" alt="Illustration stay productive" width="290" height="240" > 
+        <img class="illustration-stay-productive" src="images/illustration-stay-productive.png" alt="Illustration stay productive" width="290" height="240"> 
         
         <h2 class="titulo_central_2"> Stay productive, wherever you are </h2>
 
@@ -116,54 +117,34 @@
     </section>
 
     <!-- Depoimentos-->
-           
-    <section class="Satish-Patel-container">  
 
-      <p class="depoimentos-texto">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>              
+    <section class="depoimentos-container"> 
+      
+      <h2 class="titulo-depoimentos">Depoimentos</h2>
 
-      <img class="profile-1" src="images/profile-1.jpg" alt="Profile SatishPatel" width="30" height="30" >               
+       <!-- If we need pagination -->
+       <div class="swiper-pagination"></div>
 
-        <div class="info-profile">        
-
-          <h2 class="nome-texto">Satish Patel</h2>
-
-          <p class="cargo-texto">Founder & CEO, Huddle</p>                    
-
-        </div>        
-
-    </section>                
-
-    <section class="Bruce-McKenzie-container">          
-
-      <p class="depoimentos-texto">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>        
-
-      <img class="profile-2" src="images/profile-2.jpg" alt="Profile Bruce McKenzie" width="30" height="30" >         
-
-        <div class="info-profile"></div>  
-
-          <h2 class="nome-texto">Bruce McKenzie</h2>    
-
-          <p class="cargo-texto">Founder & CEO, Huddle</p>    
-
-        </div>  
-
-    </section>        
-
-    <section class="Iva-Boyd-container">          
-
-      <p class="depoimentos-texto">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>        
-
-       <img class="profile-3" src="images/profile-3.jpg" alt="Profile Iva Boyd" width="30" height="30" >        
-
-        <div class="info-profile"></div>  
-
-          <h2 class="nome-texto">Iva Boyd</h2>
-
-            <p class="cargo-texto">Founder & CEO, Huddle</p>
-
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="images/Satish Patel.JPG" alt="Satish Patel"></div>
+          <div class="swiper-slide"><img src="images/Bruce McKenzie.JPG" alt="Bruce McKenzie"></div>
+          <div class="swiper-slide"><img src="images/Iva Boyd.JPG" alt="Iva Boyd"></div>
         </div>
+       
 
-    </section>        
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>   
+
+    </section>
 
     <!-- Conteúdo final -->   
 
@@ -179,9 +160,26 @@
 
     </section>
 
+    <!-- Carrossel --> 
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+            const swiper = new Swiper('.swiper', {
+        speed:200,
+        spaceBetween: 100,
+        slidesPerView: 1,
+            pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+      });
+    </script>
+
   </body>
 
   <!-- Conteúdo rodapé-->
+
 
   <footer>
       
