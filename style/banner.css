@@ -1,7 +1,11 @@
 .banner-container {
     text-align: center;
-    margin-top: 40px;
+    margin: 3em 0;
     color: var(--third-color-neutral);
+}
+
+.banner-container img {
+    width: 70%;
 }
 
 .titulo_banner {
