@@ -1,13 +1,11 @@
 .conteudo_final {
     text-align: center;
-    margin-top: 200px;
     color: var(--third-color-neutral);
     background-color: var(--primary-bg-color-testimoials);
     border-radius: 10px;
     padding: 1em 2em 1em;
-    margin: 2em 1em;
+    margin: 2em 1.5em 0 1.5em;
     line-height: 2em;
-    width: 300px;
 }
 
 .titulo_final {
@@ -30,9 +28,9 @@
 
 .final__email {
     border: 0;
-    margin: 1em 0 1em 0 ;
+    margin: 1em 1.5em 1em 1.5em;
     line-height: 2.5;
-    padding: 0 40px;
+    padding: 0 15px;
     font-size: 1rem;
     text-align: left;
     color: var(--primary-bg-color-f);
@@ -44,10 +42,10 @@
 
 .final__starded {
     border: 0;
-    margin: 1em 0 1em 0 ;
+    margin: 1em 1.5em 1em 1.5em;
     line-height: 2.5;
-    padding: 0 60px;
-    font-size: 1rem;
+    padding: 0 40px;
+    font-size: 1rem;;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;

@@ -1,7 +1,11 @@
 .conteudo-central-container-2 {
     text-align: center;
-    margin-top: 200px;
+    margin: 3em 1.5em 0 1.5em;
     color: var(--third-color-neutral)
+}
+
+.conteudo-central-container-2 img {
+    width: 70%;
 }
 
 .titulo_central_2 {
@@ -24,12 +28,9 @@
 }
 
 .link_central_2 {
-    padding: 0.5em;
     color: var(--second-color-cyan);
-    font-size: 14px;
     font-family: var(--font-family-body);
+    font-size: 14px;
     text-align: left;
-    padding: 0em 0.5em;
-    margin: 2em 2em 0;
-    line-height: 3em;
+    margin: 2em 0em 0;
 }
