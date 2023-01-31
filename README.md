@@ -15,7 +15,8 @@ plugin Swiperjs e media queries.
 - `Funcionalidade 3`: Compartilhe e colabore com amigo, família e colegas de trabalho
          
 
-(![Readme - CTD 4](file:///C:/Users/user/OneDrive/Documentos/Mentoria%20Pedro%20Marins/4%20-%20CTD/design/Readme%20-%20CTD%204.mp4)
+![](https://user-images.githubusercontent.com/108702091/215882762-bfc19cc5-ec36-4852-9a94-4d8236dd62d8.gif)
+
  
 
 # Stack utilizada
@@ -42,27 +43,47 @@ plugin Swiperjs e media queries.
 
 • Integrar CSS no HTML;
 
+• Importar e usar fontes do google fonts
+
 • Adicionar informações de cores e fonte;
 
-• Organizar propriedades em grupos de itens flex na horizontal e vertical;
+• Usar a extensão live-server;
+
+• Aplicar o reset.css
 
 
 ## Etapa 3
 
-• Alterar fonte;
+• Construir um header;
 
-• Alterar cor de fundo;
+• Transformar elementos em flex-containers e flex-items com FlexBox;
 
-• Verificar o posicionamento dos elementos.
+• Associar arquivos CSS através do @import;
+
+• Position relative e absolute
+
+• Editar input e seu placeholder
 
 
 ## Etapa 4
 
-• Adicionar a propriedade flex, align-self;
+• Aplicar plugins externos através de CDN;
 
-• Como utilizar flex-item e flex-container;
+• Utilizar o plugin SwiperJS;
 
-• Como utilizar flex-direction e flex-wrap.
+• Reforçar o aprendizado de flexbox.
+
+## Etapa 5
+
+• Reutilizar elementos e estilos
+
+• Usar media queries
+
+• Aplicar diferentes estilos para diferentes tamanhos de tela;
+
+• Retirar elementos da tela;
+
+• Aplicar elementos na tela de acordo com o tamanho do dispositivo.
 
 # Uso/Exemplos
 
@@ -118,7 +139,7 @@ plugin Swiperjs e media queries.
 
 # 🛠️ Ferramentas utilizadas
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="40" height="40"/> <img 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="40" height="40"/> 
 
 # 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/fernanda1102)
