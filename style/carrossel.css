@@ -23,3 +23,11 @@
     position: initial;
     margin: -146em 0;
 }
+
+@media screen and (min-width: 1440px) {
+    .swiper-wrapper img {
+        width: 50%;
+        margin: 4em 20em ;
+    }
+
+}

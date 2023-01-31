@@ -34,3 +34,16 @@
     text-align: left;
     margin: 2em 0em 0;
 }
+
+@media screen and (min-width: 1440px) {
+
+    .conteudo-central-container-2 {
+        display: inline-block;
+    }
+
+    .conteudo--central--container-2 {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+}

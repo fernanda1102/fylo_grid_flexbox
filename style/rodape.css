@@ -83,4 +83,5 @@
     margin: 1em 2em 8em 2em;
     line-height: 1.5em;
     font-family: var(--font-family-body);
+    color: var(--third-color-neutral);
 }
