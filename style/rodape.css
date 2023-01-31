@@ -85,3 +85,51 @@
     font-family: var(--font-family-body);
     color: var(--third-color-neutral);
 }
+
+@media screen and (min-width: 1440px) {
+    
+     /* Conteúdo rodapé */
+    .logo-fylo-footer{
+        width: 20%;
+    }
+
+    .img-footer {
+        width: 2%;  
+    }
+
+    .icon-phone-footer{
+        padding: 1em 0 1em 0;
+    }
+
+    /* Link - Conteúdo rodapé */
+
+    .link-container-1 {
+        font-size: 14px;
+        text-align: right;
+        margin: 4em 6em;
+     }
+
+     /* Social- Conteúdo rodapé */
+
+    .social-container-2 img {
+        width: 6%;
+    }
+
+    .social-container-2 {
+        display: flex;
+        align-items: center;
+        margin: 2em 2em 0 40em;
+        padding: 0 2em;
+    }
+
+    /* Dev- Conteúdo rodapé */
+
+    .dev-container {
+        text-align: center;
+        padding: 0em 2em;
+        margin: 1em 2em 8em 2em;
+        line-height: 1.5em;
+        
+    }
+
+}
